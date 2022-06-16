@@ -31,7 +31,6 @@ nieto(A,B):- padre(X,A),padre(B,X).
 %----------------------------------------
 %Ejercicio 3
 
-
 menu('Bombones de jamón', 'Locro', 'Dulce de batata').
 menu( 'Bombones de jamón', 'Locro', 'Alfajor norteño').
 menu( 'Tarta de Atún', 'Atados de repollo', 'Dulce de batata').
@@ -199,3 +198,9 @@ gusta(P,X) :- hombre(P), contador(P), cuento_corto(X), poema_largo(X).
 %c corto(X)
 
 librovalioso(X):- gusta(Y,X), gusta(Z,X), Y \= Z.
+
+
+
+
+
+
