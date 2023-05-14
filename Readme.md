@@ -1,21 +1,19 @@
 # TECPRO
 
-_Materia en la cual se aprenden y se desarolla el uso de distíntos paradígmas de programación._
+## Used paradigms 🔧
 
-## Paradigmas usados 🔧
-
-PARADIGMA - LENGUAJE
+paradigm - language
 
 ```
-Paradigma Orientado A objetos - Java
+Oriented object paradigm - Java
 ```
 
 ```
-Paradigma Funcional - Racket
+functional paradigm- Racket
 ```
 
 ```
-Paradigma Lógico - Prolog
+Logic paradigm - Prolog
 ```
 ---
 Walter Uriel Voegeli
