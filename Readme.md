@@ -1,7 +1,3 @@
-# TECPRO
-
-## Used paradigms 🔧
-
 paradigm - language
 
 ```
@@ -15,5 +11,3 @@ functional paradigm- Racket
 ```
 Logic paradigm - Prolog
 ```
----
-Walter Uriel Voegeli
