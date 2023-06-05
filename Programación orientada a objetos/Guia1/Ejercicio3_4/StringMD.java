@@ -1,10 +1,8 @@
-package ejercicio_2;
-
+package Ejercicio3_4;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 public class StringMD {
-	// algoritmos
 	public static String MD2 = "MD2";
 	public static String MD5 = "MD5";
 	public static String SHA1 = "SHA-1";
@@ -18,7 +16,6 @@ public class StringMD {
 	 * @param digest arreglo de bytes a convertir
 	 * @return String creado a partir de <code>digest</code>
 	 */
-
 	private static String toHexadecimal(byte[] digest) {
 		String hash = "";
 		for (byte aux : digest) {
@@ -34,7 +31,7 @@ public class StringMD {
 	 * Encripta un mensaje de texto mediante algoritmo de resumen de mensaje.
 	 * 
 	 * @param message   texto a encriptar
-	 * @param algorithm algoritmo de encriptación, puede ser:
+	 * @param algorithm algoritmo de encriptaciÃ³n, puede ser:
 	 *                  MD2,MD5,SHA-1,SHA-256,SHA-384,SHA-512
 	 * @return mensaje encriptado
 	 */
@@ -52,5 +49,4 @@ public class StringMD {
 		}
 		return toHexadecimal(digest);
 	}
-
 }
